@@ -1,6 +1,6 @@
 import Navbar from './Home/Navbar';
 import './App.css';
-import Slide from './Home/Slide';
+// import Slide from './Home/Slide';
 import AboutUs from './Home/AboutUs';
 import Courses from './Home/Courses';
 import Video from './Home/Video';
@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
         <Video/>
         <AboutUs/>
-        <Slide/>
+        {/* <Slide/> */}
         <Courses/>
         <Services/>
         <Footer/>

@@ -20,13 +20,13 @@ function NavScrollExample() {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px', marginLeft:'35%' }}
+            style={{ maxHeight: '100px', marginLeft:'27%' }}
             navbarScroll
           >
-            <Nav.Link href="#aboutus">About Us</Nav.Link>
-            <Nav.Link href="#action2">Blog</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <NavDropdown title="Courses" id="navbarScrollingDropdown">
+            <Nav.Link href="#aboutus" className='m-3' id='navbutton'>About Us</Nav.Link>
+            <Nav.Link href="#action2" className='m-3' id='navbutton'>Blog</Nav.Link>
+            <Nav.Link href="#services" className='m-3' id='navbutton'>Services</Nav.Link>
+            <NavDropdown title="Courses" className='m-3' id='navbutton'>
               <NavDropdown.Item href="#aeromodelling">
                 Aeromodelling
               </NavDropdown.Item>
@@ -46,7 +46,7 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action3">LMS</Nav.Link>
+            <Nav.Link href="#action3" className='m-3' id='navbutton'>LMS</Nav.Link>
             </Nav>
             <Button variant="outline-primary" className='m-3'>Contact Us</Button>
         </Navbar.Collapse>

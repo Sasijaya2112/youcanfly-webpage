@@ -32,8 +32,8 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="text-center">
-                        <p>&copy; {new Date().getFullYear()} You Can Fly</p>
+                    <Col className="text-center mt-4">
+                        <p>Copyright&copy; {new Date().getFullYear()} Yourbackers Aeromodelling Private Ltd</p>
                     </Col>
                 </Row>
             </Container>

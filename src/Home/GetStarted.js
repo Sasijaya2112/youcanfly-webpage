@@ -10,8 +10,8 @@ function GetStarted() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className='m-5' style={{fontFamily:'cursive'}}>
-        Get Started
+      <Button variant="primary" onClick={handleShow} className='m-5' style={{fontFamily:'sans-serif', fontSize:'120%'}}>
+        GET STARTED
       </Button>
 
       <Modal show={show} onHide={handleClose}>

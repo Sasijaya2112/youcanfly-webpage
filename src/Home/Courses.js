@@ -12,9 +12,10 @@ const Courses = () => {
         <div>
             <h1 className='mt-5'>Courses we offer!</h1>
             <Container>
-            <Row className='mt-2'>
-            <Col className='m-5' id='aeromodelling'>
-            <Card style={{ width: '100%' }}>
+            <hr></hr>
+            <Row className='mt-5' style={{marginLeft:'4%'}}>
+            <Col className='m-3' id='aeromodelling'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image1} />
                 <Card.Body>
                     <Card.Title>Aeromodelling</Card.Title>
@@ -26,8 +27,8 @@ const Courses = () => {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className='m-5' id='uav'>
-            <Card style={{ width: '100%' }}>
+            <Col className='m-3' id='uav'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image2} />
                 <Card.Body>
                     <Card.Title>UAV Engineering</Card.Title>
@@ -39,21 +40,21 @@ const Courses = () => {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className='m-5' id='aerial'>
-            <Card style={{ width: '100%' }}>
+            <Col className='m-3' id='aerial'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image3} />
                 <Card.Body>
                     <Card.Title>Aerial Cinematography</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of
+                    Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
                    </Card.Text>
                     <Button variant="primary">View Course</Button>
                 </Card.Body>
             </Card>
             </Col>
-            <Col className='m-5' id='dronepilot'>
-            <Card style={{ width: '100%' }}>
+            <Col className='m-3' id='dronepilot'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image4} />
                 <Card.Body>
                     <Card.Title>Drone Piloting</Card.Title>
@@ -65,8 +66,8 @@ const Courses = () => {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className='m-5' id='agri'>
-            <Card style={{ width: '100%' }}>
+            <Col className='m-3' id='agri'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image5} />
                 <Card.Body>
                     <Card.Title>Agricultural Drone</Card.Title>
@@ -78,8 +79,8 @@ const Courses = () => {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className='m-5' id='disaster'>
-            <Card style={{ width: '100%' }}>
+            <Col className='m-3' id='disaster'>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image6} />
                 <Card.Body>
                     <Card.Title>Disaster Management</Card.Title>
