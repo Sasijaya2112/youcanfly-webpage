@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 // import drone from './dronepic1.png';
-import logo from './ycflogo.png'
+import logo from './logowhite.jpg'
 import GetStarted from './GetStarted';
 // import image from './bgimage.png';
 
@@ -25,9 +25,9 @@ const AboutUs = () => {
                     <img className="w-100" src={drone} alt="Drone pic" style={{ marginTop: '0%' }} />
                     </Col> */}
                     {/* <Col> */}
-                    <img className="w-50" src={logo} alt="logo" style={{ marginTop: '-10%' }} />
-                    <h1 className='' style={{ marginTop: '-12%', fontFamily: 'cursive' }}>Drone technology grows rapidly, we will help you <br></br>learn this with ease!</h1>
-                    <h4 className='mt-5' style={{ fontFamily: 'serif' }}>We have brilliant minds to bring your imagination into real life.<br></br> YOU CAN FLY offers great service with a team of experts <br></br> by providing drone training to the next generation with dreams.</h4>
+                    <img width='50%' src={logo} alt="logo" />
+                    <h1 className='' style={{fontSize:'200%'}} >Drone technology grows rapidly, we will help you <br></br>learn this with ease!</h1>
+                    <h4 className='mt-5' style={{ fontFamily: 'serif',fontSize:'150%' }}>We have brilliant minds to bring your imagination into real life.<br></br> YOU CAN FLY offers great service with a team of experts <br></br> by providing drone training to the next generation with dreams.</h4>
                     {/* <Button className='m-5' style={{fontFamily:'cursive'}}>GET STARTED</Button> */}
                     <GetStarted/>
                     {/* </Col> */}

@@ -5,6 +5,7 @@ import slide3 from './Slide Images/3.png'
 
 function Slide() {
   return (
+    <div>
     <Carousel>
       <Carousel.Item data-bs-theme="light" className='custom-carousel'>
       <img
@@ -28,6 +29,7 @@ function Slide() {
         /> 
         </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

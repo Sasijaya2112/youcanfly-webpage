@@ -16,6 +16,7 @@ function JustifiedExample() {
     return (
         <div className='container'>
             <h1 className='mt-5' id='services'>Services we provide</h1>
+            <h6>(click each tab to reveal)</h6>
             <Tabs
                 defaultActiveKey="profile"
                 id="justify-tab-example"
@@ -37,7 +38,7 @@ function JustifiedExample() {
                         </Col>
                     </Row>
                 </Tab>
-                <Tab eventKey="Agri drone spraying" title="Agri drone spraying">
+                <Tab eventKey="Agri drone spraying" title="Agridrone spraying">
                     <Row>
                         <Col md={6}>
                             <Image src={agri} width='80%' rounded className='mt-5'></Image>
