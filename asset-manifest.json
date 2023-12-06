@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/youcanfly-webpage/static/css/main.14146fa1.css",
+    "main.js": "/youcanfly-webpage/static/js/main.563d262f.js",
+    "static/js/787.cfabb035.chunk.js": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js",
+    "static/media/workshopvideo.mp4": "/youcanfly-webpage/static/media/workshopvideo.0e1223935442d5ecb68c.mp4",
+    "static/media/disaster.png": "/youcanfly-webpage/static/media/disaster.ce9eef8e8c2df0e67c78.png",
+    "static/media/aeromodelling.png": "/youcanfly-webpage/static/media/aeromodelling.e8c218d35d5a3773acc9.png",
+    "static/media/agri1.png": "/youcanfly-webpage/static/media/agri1.2efce27bfe671a9c92be.png",
+    "static/media/uav.png": "/youcanfly-webpage/static/media/uav.9737ad447f3690fa1292.png",
+    "static/media/Aerial.png": "/youcanfly-webpage/static/media/Aerial.7d66668abafad22ee1a2.png",
+    "static/media/drone pilot.png": "/youcanfly-webpage/static/media/drone pilot.3e866b9e2474a7b4bb21.png",
+    "static/media/ycflogo.png": "/youcanfly-webpage/static/media/ycflogo.0e886c21a88331623645.png",
+    "static/media/dronepiloting.png": "/youcanfly-webpage/static/media/dronepiloting.15dad7d5e84828c879e4.png",
+    "index.html": "/youcanfly-webpage/index.html",
+    "main.14146fa1.css.map": "/youcanfly-webpage/static/css/main.14146fa1.css.map",
+    "main.563d262f.js.map": "/youcanfly-webpage/static/js/main.563d262f.js.map",
+    "787.cfabb035.chunk.js.map": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14146fa1.css",
+    "static/js/main.563d262f.js"
+  ]
+}
