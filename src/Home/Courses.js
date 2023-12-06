@@ -1,0 +1,100 @@
+import React from 'react';
+import { Card, Button, Col, Row, Container } from 'react-bootstrap';
+import image1 from './Courses Images/aeromodelling.png';
+import image2 from './Courses Images/uav.png';
+import image3 from './Courses Images/Aerial.png';
+import image4 from './Courses Images/drone pilot.png';
+import image5 from './Courses Images/agri1.png';
+import image6 from './Courses Images/disaster.png';
+
+const Courses = () => {
+    return (
+        <div>
+            <h1 className='mt-5'>Courses we offer!</h1>
+            <Container>
+            <Row className='mt-2'>
+            <Col className='m-5' id='aeromodelling'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image1} />
+                <Card.Body>
+                    <Card.Title>Aeromodelling</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col className='m-5' id='uav'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image2} />
+                <Card.Body>
+                    <Card.Title>UAV Engineering</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col className='m-5' id='aerial'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image3} />
+                <Card.Body>
+                    <Card.Title>Aerial Cinematography</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of
+                   </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col className='m-5' id='dronepilot'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image4} />
+                <Card.Body>
+                    <Card.Title>Drone Piloting</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col className='m-5' id='agri'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image5} />
+                <Card.Body>
+                    <Card.Title>Agricultural Drone</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col className='m-5' id='disaster'>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={image6} />
+                <Card.Body>
+                    <Card.Title>Disaster Management</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">View Course</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            </Row>
+            </Container>
+        </div>
+    );
+}
+
+export default Courses;

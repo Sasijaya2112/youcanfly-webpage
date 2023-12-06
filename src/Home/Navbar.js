@@ -25,24 +25,24 @@ function NavScrollExample() {
           >
             <Nav.Link href="#aboutus">About Us</Nav.Link>
             <Nav.Link href="#action2">Blog</Nav.Link>
-            <Nav.Link href="#action3">Services</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
             <NavDropdown title="Courses" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="#aeromodelling">
                 Aeromodelling
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#uav">
                 UAV Engineering
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#aerial">
                 Aerial Cinematography
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#dronepilot">
                 Drone Piloting
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#agri">
                 Agricultural Drone
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#disaster">
                 Disaster Management
               </NavDropdown.Item>
             </NavDropdown>
