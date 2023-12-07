@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/youcanfly-webpage/static/css/main.b40ff038.css",
-    "main.js": "/youcanfly-webpage/static/js/main.1e5ee589.js",
+    "main.js": "/youcanfly-webpage/static/js/main.b7f9279b.js",
     "static/js/787.cfabb035.chunk.js": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js",
     "static/media/ycfvideo1.mp4": "/youcanfly-webpage/static/media/ycfvideo1.0800b0c6f376be0ab3b3.mp4",
+    "static/media/uav.png": "/youcanfly-webpage/static/media/uav.9737ad447f3690fa1292.png",
     "static/media/2.png": "/youcanfly-webpage/static/media/2.456ef8374413c3b3f523.png",
     "static/media/3.png": "/youcanfly-webpage/static/media/3.1e46f1b730f11274548b.png",
     "static/media/1.png": "/youcanfly-webpage/static/media/1.9d23acf6d628c5809675.png",
@@ -12,7 +13,6 @@
     "static/media/aeromodelling.png": "/youcanfly-webpage/static/media/aeromodelling.e8c218d35d5a3773acc9.png",
     "static/media/4.png": "/youcanfly-webpage/static/media/4.a59848f273ca9cfbd71c.png",
     "static/media/agri1.png": "/youcanfly-webpage/static/media/agri1.2efce27bfe671a9c92be.png",
-    "static/media/uav.png": "/youcanfly-webpage/static/media/uav.9737ad447f3690fa1292.png",
     "static/media/Aerial.png": "/youcanfly-webpage/static/media/Aerial.7d66668abafad22ee1a2.png",
     "static/media/drone pilot.png": "/youcanfly-webpage/static/media/drone pilot.3e866b9e2474a7b4bb21.png",
     "static/media/logowhite.jpg": "/youcanfly-webpage/static/media/logowhite.e3d92a65a33ef1108884.jpg",
@@ -28,11 +28,11 @@
     "static/media/MVIT.jpg": "/youcanfly-webpage/static/media/MVIT.c6c93d904a49956b7e5f.jpg",
     "index.html": "/youcanfly-webpage/index.html",
     "main.b40ff038.css.map": "/youcanfly-webpage/static/css/main.b40ff038.css.map",
-    "main.1e5ee589.js.map": "/youcanfly-webpage/static/js/main.1e5ee589.js.map",
+    "main.b7f9279b.js.map": "/youcanfly-webpage/static/js/main.b7f9279b.js.map",
     "787.cfabb035.chunk.js.map": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b40ff038.css",
-    "static/js/main.1e5ee589.js"
+    "static/js/main.b7f9279b.js"
   ]
 }
