@@ -41,7 +41,7 @@ const CounterAerialFilm = () => {
           }
           return prevCount + 1;
         });
-      }, 10); // Adjust interval duration as needed
+      }, 5); // Adjust interval duration as needed
 
       return () => clearInterval(interval);
     }

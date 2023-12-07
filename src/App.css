@@ -3,8 +3,13 @@
 }
 #navbutton{
   border-bottom: 2px solid rgb(247, 247, 247);
+
 }
 #navbutton:hover{
   border-color: rgb(24, 93, 230);
   color: rgb(24, 93, 230);
+}
+
+#facebook:hover{
+  cursor: pointer;
 }
