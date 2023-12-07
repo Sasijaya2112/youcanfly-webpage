@@ -55,7 +55,7 @@ const Footer = () => {
             <Container>
                 <Row style={{ marginLeft: '0%' }} className="justify-content-md-center">
                     <Col xs={3} md={1} className='mt-5 mb-5'>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/ycf.puducherry" target="_blank" rel="noopener noreferrer">
                         {isHoveredFacebook ? (
                             <PiFacebookLogoLight size={50} id='facebook' onMouseEnter={handleMouseEnterFacebook} onMouseLeave={handleMouseLeaveFacebook} />
                         ) : (
@@ -64,7 +64,7 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col xs={3} md={1} className='mt-5'>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/youcanfly_puducherry/" target="_blank" rel="noopener noreferrer">
                     {isHoveredInstagram ? (
                             <AiOutlineInstagram size={50} id='facebook' onMouseEnter={handleMouseEnterInstagram} onMouseLeave={handleMouseLeaveInstagram} />
                         ) : (
@@ -73,7 +73,7 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col xs={3} md={1} className='mt-5'>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@you_can_fly" target="_blank" rel="noopener noreferrer">
                     {isHoveredYoutube ? (
                             <TbBrandYoutube size={50} id='facebook' onMouseEnter={handleMouseEnterYoutube} onMouseLeave={handleMouseLeaveYoutube} />
                         ) : (
@@ -82,7 +82,7 @@ const Footer = () => {
                         </a> 
                     </Col>
                     <Col xs={3} md={1} className='mt-5'>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/youcanfly-in-a8213a288/" target="_blank" rel="noopener noreferrer">
                     {isHoveredLinkedin ? (
                             <PiLinkedinLogoLight size={50} id='facebook' onMouseEnter={handleMouseEnterLinkedin} onMouseLeave={handleMouseLeaveLinkedin} />
                         ) : (

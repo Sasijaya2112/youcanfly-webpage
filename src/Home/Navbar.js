@@ -2,6 +2,11 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Nav, Navbar, NavDropdown, Container, Image } from 'react-bootstrap';
 import ycf_logo from './ycflogo.png';
 import ContactUs from './ContactUs';
+import { TbDrone } from "react-icons/tb";
+import { FaBloggerB } from "react-icons/fa";
+import { AiOutlineSolution } from "react-icons/ai";
+import { FaBookBookmark } from "react-icons/fa6";
+import { MdComputer } from "react-icons/md";
 
 function NavScrollExample() {
   const servicesDropdownRef = useRef(null);
@@ -57,12 +62,11 @@ function NavScrollExample() {
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'22%' }} navbarScroll>
-              <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'>About Us</Nav.Link>
-              <Nav.Link href="#action2" className='m-md-3' id='navbutton'>Blog</Nav.Link>
+            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'15%' }} navbarScroll>
+              <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
               {/* Services NavDropdown */}
               <NavDropdown
-                title="Services"
+                title={<span><AiOutlineSolution size={30} style={{ marginRight: '5px' }} /> Services</span>}
                 className='m-md-3'
                 id='navbutton'
                 show={servicesDropdownOpen}
@@ -70,6 +74,7 @@ function NavScrollExample() {
                 onMouseLeave={() => setServicesDropdownOpen(false)}
                 ref={servicesDropdownRef}
               >
+                
                 <NavDropdown.Item href="#services">Aerial Photography</NavDropdown.Item>
                 <NavDropdown.Item href="#services">
                 Agrid drone spraying
@@ -83,7 +88,7 @@ function NavScrollExample() {
               </NavDropdown>
               {/* Courses NavDropdown */}
               <NavDropdown
-                title="Courses"
+                title={<span><FaBookBookmark size={25} style={{ marginRight: '5px' }} /> Courses</span>}
                 className='m-md-3'
                 id='navbutton'
                 show={coursesDropdownOpen}
@@ -108,7 +113,8 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown>
-              {/* Add other NavLinks or components */}
+              <Nav.Link href="#action2" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              <Nav.Link href="#action2" className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
               <ContactUs/>
             </Nav>
           </Navbar.Collapse>
