@@ -27,12 +27,11 @@ function App() {
         <Container>
         <Row>
         <h1 className='mt-5 mb-5'>Our Gallery</h1>
-        <Col> <Slide/></Col>
-        <Col> <Slide/></Col>
+        {/* <Container> */}
+        <Col xs={12} md={6} className='mt-2'> <Slide/></Col>
+        <Col xs={12} md={6} className='mt-2'> <Slide/></Col>
+        {/* </Container> */}
         </Row>
-        {/* <CounterClients/>
-        <CounterAerialFilm/>
-        <CounterProjects/> */}
         <CollegeTieups/>
         </Container>
         <Footer/>
