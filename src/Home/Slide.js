@@ -12,6 +12,7 @@ function Slide() {
           className="d-block w-100"
           src={slide1}
           alt="First slide"
+          
         /> 
         </Carousel.Item>
       <Carousel.Item>

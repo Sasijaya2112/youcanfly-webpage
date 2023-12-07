@@ -7,6 +7,12 @@ import Video from './Home/Video';
 import Services from './Home/Services';
 import Footer from './Home/Footer';
 import { Row, Col, Container } from 'react-bootstrap';
+import CollegeTieups from './Home/CollegeTieups';
+import Counter from './Home/Counter/Counter';
+// import CounterClients from './Home/Counter/CounterClients';
+// import CounterAerialFilm from './Home/Counter/CounterAerialFilm';
+// import CounterProjects from './Home/Counter/CounterProjects';
+
 
 function App() {
   return (
@@ -16,6 +22,7 @@ function App() {
         <Video/>
         <AboutUs/>
         <Courses/>
+        <Counter/>
         <Services/>
         <Container>
         <Row>
@@ -23,12 +30,10 @@ function App() {
         <Col> <Slide/></Col>
         <Col> <Slide/></Col>
         </Row>
-        <Row>
-        <h1 className='mt-5 mb-5'>College tieups</h1>
-        <Col> <Slide/></Col>
-        <Col> <Slide/></Col>
-        <Col> <Slide/></Col>
-        </Row>
+        {/* <CounterClients/>
+        <CounterAerialFilm/>
+        <CounterProjects/> */}
+        <CollegeTieups/>
         </Container>
         <Footer/>
       </div>

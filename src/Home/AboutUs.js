@@ -7,16 +7,8 @@ import GetStarted from './GetStarted';
 
 const AboutUs = () => {
 
-    const divStyle = {
-        backgroundImage: 'url("src/Home/bgimage.png")',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh', // Adjust height as needed
-        // You can add more styles here
-    };
-
     return (
-        <div id='aboutus' style={divStyle}>
+        <div id='aboutus'>
             <Container>
                 {/* <Row> */}
                     <h1 className='mt-5'>About us</h1>
