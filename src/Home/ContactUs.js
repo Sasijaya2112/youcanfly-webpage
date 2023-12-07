@@ -27,12 +27,20 @@ function ContactUs() {
         <p>Contact: +91 786 789 7000</p>
         <p>&nbsp;&nbsp;Email: info@youcanfly.in</p>
         </div>  
-          <Form>
+        <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder=""
+                autoFocus
+              />
+            </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="name@example.com"
+                placeholder="example@email.com"
                 autoFocus
               />
             </Form.Group>

@@ -7,6 +7,7 @@ import image4 from './Courses Images/drone pilot.png';
 import image5 from './Courses Images/agri1.png';
 import image6 from './Courses Images/disaster.png';
 import AeromodellingCourse from './Course View/AeromodellingCourse';
+import UavCourse from './Course View/UavCourse';
 
 const Courses = () => {
     return (
@@ -38,7 +39,7 @@ const Courses = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </Card.Text>
-                    <Button variant="primary">View Course</Button>
+                    <UavCourse/>
                 </Card.Body>
             </Card>
             </Col>
