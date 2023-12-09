@@ -8,6 +8,10 @@ import image5 from './Courses Images/agri1.png';
 import image6 from './Courses Images/disaster.png';
 import AeromodellingCourse from './Course View/AeromodellingCourse';
 import UavCourse from './Course View/UavCourse';
+import AerialCinematography from './Course View/AerialCinematography';
+import DronePiloting from './Course View/DronePiloting';
+import AgriculturalDrone from './Course View/AgriculturalDrone';
+import DisasterManagement from './Course View/DisasterManagement';
 
 const Courses = () => {
     return (
@@ -52,7 +56,7 @@ const Courses = () => {
                     Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                    </Card.Text>
-                    <Button variant="primary">View Course</Button>
+                    <AerialCinematography/>
                 </Card.Body>
             </Card>
             </Col>
@@ -65,7 +69,7 @@ const Courses = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </Card.Text>
-                    <Button variant="primary">View Course</Button>
+                    <DronePiloting/>
                 </Card.Body>
             </Card>
             </Col>
@@ -78,7 +82,7 @@ const Courses = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </Card.Text>
-                    <Button variant="primary">View Course</Button>
+                    <AgriculturalDrone/>
                 </Card.Body>
             </Card>
             </Col>
@@ -91,7 +95,7 @@ const Courses = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </Card.Text>
-                    <Button variant="primary">View Course</Button>
+                    <DisasterManagement/>
                 </Card.Body>
             </Card>
             </Col>
