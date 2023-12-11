@@ -3,8 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import { Image } from 'react-bootstrap';
-import myImage from './ycflogo.png'
-// import emailjs from '@emailjs/browser';
+import myImage from './ycflogo.png';
 import $ from 'jquery';
 
 function ContactUs() {
@@ -18,30 +17,6 @@ function ContactUs() {
   const [contact, setContact] = useState();
   const [query, setQuery] = useState();
 
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   console.log(name, mail, contact, query);
-
-  //   const templateParams = {
-  //     name: name,
-  //     mail: mail,
-  //     contact: contact,
-  //     query: query
-  //   };
-
-  //   emailjs.sendForm('service_97f0sbl', 'template_0bz96rr', templateParams, 'bWodJ6suy7VUOXslw')
-  //     .then((result) => {
-  //       console.log(result.text);
-  //       console.log('message sent');
-  //     })
-  //     .catch((error) => {
-  //       console.log(error.text);
-  //     });
-
-  //   setShow(false);
-  // }
   const handleSubmit = (e) => {
     e.preventDefault();
     var data = {
@@ -66,11 +41,11 @@ function ContactUs() {
       alert('Oops... ' + JSON.stringify(error));
     });
     setShow(false);
+    setContact('');
+    setMail('');
+    setName('');
+    setQuery('');
   }
-
-  // const form = useRef();
-
-
 
   return (
     <>

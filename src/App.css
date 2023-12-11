@@ -9,7 +9,11 @@
   border-color: rgb(24, 93, 230);
   color: rgb(24, 93, 230);
 }
-
+#facebook {
+  transition: opacity 0.7s ease-in-out; /* Example: Transitioning opacity */
+}
 #facebook:hover{
   cursor: pointer;
+  opacity: 0.5;
+  color: rgb(121, 192, 255);
 }
