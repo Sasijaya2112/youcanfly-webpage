@@ -9,6 +9,7 @@ import Footer from './Home/Footer';
 import { Row, Col, Container } from 'react-bootstrap';
 import CollegeTieups from './Home/CollegeTieups';
 import Counter from './Home/Counter/Counter';
+import MoveToTop from './Home/MoveToTop';
 // import CounterClients from './Home/Counter/CounterClients';
 // import CounterAerialFilm from './Home/Counter/CounterAerialFilm';
 // import CounterProjects from './Home/Counter/CounterProjects';
@@ -34,6 +35,7 @@ function App() {
         </Row>
         <CollegeTieups/>
         </Container>
+        <MoveToTop/>
         <Footer/>
       </div>
     </div>
