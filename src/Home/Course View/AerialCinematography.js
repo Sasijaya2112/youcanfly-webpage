@@ -26,7 +26,7 @@ function AerialCinematography() {
         </Modal.Header>
         <Modal.Body>
           <div className='container mt-3 mb-3'>
-            <Image src={aero} className='w-100'></Image><br></br><br></br>
+            <Image src={aero} className='w-100' alt='aerial view'></Image><br></br><br></br>
             Aerial cinematography refers to the art and technique of capturing video or film footage from an elevated perspective, typically using drones, helicopters, airplanes, or other aerial platforms. It involves using specialized equipment like cameras mounted on stabilized gimbals to achieve smooth, high-quality shots from the air. Aerial cinematography is widely used in filmmaking, documentaries, commercials, and other visual storytelling mediums to provide unique and breathtaking aerial views that enhance storytelling, evoke emotions, and offer perspectives otherwise impossible to attain from the ground.
           </div>
             <Alert key='warning' variant='warning'>

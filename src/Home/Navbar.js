@@ -66,7 +66,7 @@ function NavScrollExample() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'15%' }} navbarScroll>
-              <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
+              <Nav.Link href="/youcanfly-webpage/blog" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
               {/* Services NavDropdown */}
               <NavDropdown
                 title={<span><AiOutlineSolution size={30} style={{ marginRight: '5px' }} /> Services</span>}
@@ -116,7 +116,9 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/youcanfly-webpage/blog" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              {/* <Link to='/youcanfly-webpage/blog'> */}
+              <Nav.Link href='/youcanfly-webpage/blog' className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              {/* </Link> */}
               <Nav.Link href="https://sasijaya2112.github.io/youcanfly_lms/" target='blank' className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
               <ContactUs/>
             </Nav>

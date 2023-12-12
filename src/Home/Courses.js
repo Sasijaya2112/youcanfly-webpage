@@ -22,7 +22,7 @@ const Courses = () => {
             <Row className='mt-5' style={{marginLeft:'4%'}}>
             <Col className='m-3' id='aeromodelling'>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image1} />
+                <Card.Img variant="top" src={image1} alt='aeromodelling' />
                 <Card.Body>
                     <Card.Title>Aeromodelling</Card.Title>
                     <Card.Text>
