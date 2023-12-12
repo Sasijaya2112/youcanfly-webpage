@@ -1,0 +1,66 @@
+/* FloatingSocialButtons.css */
+
+.floating-social-buttons {
+    position: fixed;
+    bottom: 30%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .floating-social-buttons .button {
+    /* background-color: #007bff; */
+    border-color: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  }
+
+  @media (max-width: 768px) {
+    .floating-social-buttons .button {
+        width: 35px; /* Adjust the width for mobile */
+        height: 35px; /* Adjust the height for mobile */
+        /* Any other mobile-specific styles */
+    }
+}
+  
+  .floating-social-buttons .button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .floating-social-buttons .facebook {
+    background-color: #1877F2;
+  }
+  
+  .floating-social-buttons .twitter {
+    background-color: #000000;
+  }
+  
+  .floating-social-buttons .instagram {
+    background-color: #d3207a;
+  }
+  .floating-social-buttons .youtube {
+    background-color: #CD201F;
+  }
+  .floating-social-buttons .linkedin {
+    background-color: #0077b5;
+  }
+  
+  /* Optional: Tooltip style */
+  .tooltip-inner {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  

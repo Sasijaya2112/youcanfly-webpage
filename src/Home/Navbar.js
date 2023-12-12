@@ -7,6 +7,7 @@ import { FaBloggerB } from "react-icons/fa";
 import { AiOutlineSolution } from "react-icons/ai";
 import { FaBookBookmark } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
   const servicesDropdownRef = useRef(null);
@@ -58,7 +59,9 @@ function NavScrollExample() {
       <Navbar expand="lg" className='bg-body-tertiary' sticky="top">
         <Container fluid>
           <div className="mb-0">
+          <Link to='/youcanfly-webpage/home'>
             <Image src={ycf_logo} alt="ycflogo" fluid style={{ height:'120px', width:'120px' }}/>
+            </Link>
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -113,8 +116,8 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#action2" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
-              <Nav.Link href="#action2" className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
+              <Nav.Link href="/youcanfly-webpage/blog" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              <Nav.Link href="https://sasijaya2112.github.io/youcanfly_lms/" target='blank' className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
               <ContactUs/>
             </Nav>
           </Navbar.Collapse>

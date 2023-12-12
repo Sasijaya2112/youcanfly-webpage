@@ -16,19 +16,19 @@ const CollegeTieups = () => {
         <div>
         <h1 className='mt-5 mb-5'>College tie-ups & Engagement</h1>
         <Row>
-        <Col><a href='https://christcet.edu.in/' target="_blank" rel="noopener noreferrer"><Image src={christ} style={{width:'50%',cursor:'pointer'}}></Image></a> </Col>
-        <Col><a href='https://www.achariya.in/school%20&%20college.html' target="_blank" rel="noopener noreferrer"><Image src={acet} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
-        <Col><a href='https://diet.ac.in/' target="_blank" rel="noopener noreferrer"><Image src={dana} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
+        <Col><Image src={christ} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={acet} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={dana} style={{width:'50%',cursor:'pointer'}}></Image></Col>
         </Row>
         <Row className='mt-5 mb-5'>
-        <Col><a href='http://surya.ac.in/' target="_blank" rel="noopener noreferrer"><Image src={surya} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
-        <Col><a href='https://mvit.edu.in/' target="_blank" rel="noopener noreferrer"><Image src={mvit} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
-        <Col><a href='https://smvec.ac.in/' target="_blank" rel="noopener noreferrer"><Image src={smvec} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
+        <Col><Image src={surya} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={mvit} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={smvec} style={{width:'50%',cursor:'pointer'}}></Image></Col>
         </Row>
         <Row className='mt-5 mb-5'>
-        <Col><a href='http://www.rgcet.edu.in/' target="_blank" rel="noopener noreferrer"><Image src={rgcet} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
-        <Col><a href='https://www.psgtech.edu/' target="_blank" rel="noopener noreferrer"><Image src={psg} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
-        <Col><a href='http://www.kamarajengg.edu.in/' target="_blank" rel="noopener noreferrer"><Image src={kamaraj} style={{width:'50%',cursor:'pointer'}}></Image></a></Col>
+        <Col><Image src={rgcet} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={psg} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={kamaraj} style={{width:'50%',cursor:'pointer'}}></Image></Col>
         </Row>
         </div>
     );
