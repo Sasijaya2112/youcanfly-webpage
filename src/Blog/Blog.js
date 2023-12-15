@@ -3,6 +3,7 @@ import { Container} from 'react-bootstrap';
 import Navbar from './Navbar';
 import SocialMedia from '../Home/SocialMedia';
 import BlogCard from './BlogCard';
+import Footer from '../Home/Footer';
 
 const AerialBlog = () => {
     return (
@@ -12,6 +13,7 @@ const AerialBlog = () => {
                 <BlogCard/>
             </Container>
             <SocialMedia/>
+            <Footer/>
         </div>
     );
 }

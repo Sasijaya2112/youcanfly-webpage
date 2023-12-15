@@ -66,7 +66,7 @@ function NavScrollExample() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'15%' }} navbarScroll>
-              <Nav.Link href="/youcanfly-webpage/blog" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
+              <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
               {/* Services NavDropdown */}
               <NavDropdown
                 title={<span><AiOutlineSolution size={30} style={{ marginRight: '5px' }} /> Services</span>}
