@@ -32,24 +32,27 @@ function NavScrollExample() {
       setCoursesDropdownOpen(false);
     };
 
-    if (servicesDropdownRef.current) {
-      servicesDropdownRef.current.addEventListener('mouseenter', handleServicesMouseEnter);
-      servicesDropdownRef.current.addEventListener('mouseleave', handleServicesMouseLeave);
+    const servicesDrop = servicesDropdownRef.current;
+    const coursesDrop = coursesDropdownRef.current;
+
+    if (servicesDrop) {
+      servicesDrop.addEventListener('mouseenter', handleServicesMouseEnter);
+      servicesDrop.addEventListener('mouseleave', handleServicesMouseLeave);
     }
 
-    if (coursesDropdownRef.current) {
-      coursesDropdownRef.current.addEventListener('mouseenter', handleCoursesMouseEnter);
-      coursesDropdownRef.current.addEventListener('mouseleave', handleCoursesMouseLeave);
+    if (coursesDrop) {
+      coursesDrop.addEventListener('mouseenter', handleCoursesMouseEnter);
+      coursesDrop.addEventListener('mouseleave', handleCoursesMouseLeave);
     }
 
     return () => {
-      if (servicesDropdownRef.current) {
-        servicesDropdownRef.current.removeEventListener('mouseenter', handleServicesMouseEnter);
-        servicesDropdownRef.current.removeEventListener('mouseleave', handleServicesMouseLeave);
+      if (servicesDrop) {
+        servicesDrop.removeEventListener('mouseenter', handleServicesMouseEnter);
+        servicesDrop.removeEventListener('mouseleave', handleServicesMouseLeave);
       }
-      if (coursesDropdownRef.current) {
-        coursesDropdownRef.current.removeEventListener('mouseenter', handleCoursesMouseEnter);
-        coursesDropdownRef.current.removeEventListener('mouseleave', handleCoursesMouseLeave);
+      if (coursesDrop) {
+        coursesDrop.removeEventListener('mouseenter', handleCoursesMouseEnter);
+        coursesDrop.removeEventListener('mouseleave', handleCoursesMouseLeave);
       }
     };
   }, []);

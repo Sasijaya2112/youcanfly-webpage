@@ -1,4 +1,4 @@
-.slider-container {
+/* .slider-container {
     width: 100%;
     overflow-x: hidden;
 }
@@ -7,7 +7,6 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
-    /* Adjust as needed */
     padding: 20px;
 }
 
@@ -25,4 +24,4 @@
         width: 300px;
         height: 200px;
     }
-}
+} */
