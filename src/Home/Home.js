@@ -12,6 +12,9 @@ import MoveToTop from './MoveToTop';
 import SocialMedia from './SocialMedia';
 import Navbar from './Navbar';
 import Slide2 from './Slide2';
+import Slide3 from './Slide3';
+import Slide4 from './Slide4';
+import HorizontalSlider from './HorizontalSlider';
 
 const Home = () => {
     return (
@@ -26,10 +29,20 @@ const Home = () => {
         <Container>
         <Row>
         <h1 className='mt-5 mb-5'>Our Gallery</h1>
-        {/* <Container> */}
         <Col xs={12} md={6} className='mt-2'> <Slide1/></Col>
         <Col xs={12} md={6} className='mt-2'> <Slide2/></Col>
-        {/* </Container> */}
+        </Row>
+        <Row className='mt-5'>
+        <h1 className='mt-5 mb-5'>College tieups</h1>
+            <Slide3/>
+        </Row>
+        <Row>
+        <h1 className='mt-5 mb-5'>In-house Workshops</h1>
+        <HorizontalSlider/>
+        </Row>
+        <Row>
+        <h1 className='mt-5 mb-5'>Workshops and Seminars</h1>
+            <Slide4/>
         </Row>
         <CollegeTieups/>
         </Container>
