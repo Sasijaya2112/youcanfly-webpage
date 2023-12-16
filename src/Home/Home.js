@@ -37,7 +37,7 @@ const Home = () => {
             <Slide3/>
         </Row>
         <Row>
-        <h1 className='mt-5 mb-5'>In-house Workshops</h1>
+        {/* <h1 className='mt-5 mb-5'>In-house Workshops</h1> */}
         {/* <HorizontalSlider/> */}
         </Row>
         <Row>
