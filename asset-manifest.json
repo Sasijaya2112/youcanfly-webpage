@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/youcanfly-webpage/static/css/main.07b40e42.css",
-    "main.js": "/youcanfly-webpage/static/js/main.da422fbd.js",
+    "main.css": "/youcanfly-webpage/static/css/main.58b41435.css",
+    "main.js": "/youcanfly-webpage/static/js/main.b184fbd9.js",
     "static/js/787.cfabb035.chunk.js": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js",
     "static/media/ycfvideo1.mp4": "/youcanfly-webpage/static/media/ycfvideo1.0800b0c6f376be0ab3b3.mp4",
     "static/media/uav.png": "/youcanfly-webpage/static/media/uav.9737ad447f3690fa1292.png",
@@ -42,6 +42,7 @@
     "static/media/doublearrow.png": "/youcanfly-webpage/static/media/doublearrow.39157b0b3ca90b85a3bc.png",
     "static/media/autelevo2pro.png": "/youcanfly-webpage/static/media/autelevo2pro.fbfc742c6702a9c8b373.png",
     "static/media/skydio2.png": "/youcanfly-webpage/static/media/skydio2.ae48e07cf9b900b3d922.png",
+    "static/media/disaster.jpg": "/youcanfly-webpage/static/media/disaster.86060a77f60687b7728c.jpg",
     "static/media/djimavic3pro.png": "/youcanfly-webpage/static/media/djimavic3pro.a81f773d5de571486a07.png",
     "static/media/improve-aerial-shots.png": "/youcanfly-webpage/static/media/improve-aerial-shots.a9cd91a22994ebc9145b.png",
     "static/media/donbosco.png": "/youcanfly-webpage/static/media/donbosco.13b640d3bd6ae4f7c3f7.png",
@@ -57,12 +58,12 @@
     "static/media/psg.jpg": "/youcanfly-webpage/static/media/psg.d2b08295085d7c86c492.jpg",
     "static/media/MVIT.jpg": "/youcanfly-webpage/static/media/MVIT.c6c93d904a49956b7e5f.jpg",
     "index.html": "/youcanfly-webpage/index.html",
-    "main.07b40e42.css.map": "/youcanfly-webpage/static/css/main.07b40e42.css.map",
-    "main.da422fbd.js.map": "/youcanfly-webpage/static/js/main.da422fbd.js.map",
+    "main.58b41435.css.map": "/youcanfly-webpage/static/css/main.58b41435.css.map",
+    "main.b184fbd9.js.map": "/youcanfly-webpage/static/js/main.b184fbd9.js.map",
     "787.cfabb035.chunk.js.map": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b40e42.css",
-    "static/js/main.da422fbd.js"
+    "static/css/main.58b41435.css",
+    "static/js/main.b184fbd9.js"
   ]
 }
