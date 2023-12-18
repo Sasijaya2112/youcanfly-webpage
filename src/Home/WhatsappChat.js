@@ -6,7 +6,7 @@ function WhatsappChat() {
   return (
     <div className="whatsapp">
       <Button
-        href="https://wa.me/7867897000"
+        href="https://api.whatsapp.com/send/?phone=917867897000&text&type=phone_number&app_absent=0"
         target="_blank"
         rel="noopener noreferrer"
         className="button whatsapp"
