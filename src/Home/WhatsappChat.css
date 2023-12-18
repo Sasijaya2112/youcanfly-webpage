@@ -25,9 +25,10 @@
   }
 
   @media (max-width: 768px) {
-    .fwhatsapp .button {
+    .whatsapp .button {
         width: 35px; /* Adjust the width for mobile */
-        height: 35px; /* Adjust the height for mobile */
+        height: 35px; 
+        right:7%;/* Adjust the height for mobile */
         /* Any other mobile-specific styles */
     }
 }
@@ -35,10 +36,12 @@
   .whatsapp .button:hover {
     background-color: #00b30c;
     transform: scale(1.1);
+    border-color: none;
   }
   
   .whatsapp .whatsapp {
     background-color: #089105;
+    border-color: none;
   }
   
   /* Optional: Tooltip style */
