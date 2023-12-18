@@ -14,7 +14,8 @@ import Navbar from './Navbar';
 import Slide2 from './Slide2';
 import Slide3 from './Slide3';
 import Slide4 from './Slide4';
-import HorizontalSlider from './HorizontalSlider';
+// import HorizontalSlider from './HorizontalSlider';
+import WhatsappChat from './WhatsappChat';
 
 const Home = () => {
     return (
@@ -49,6 +50,7 @@ const Home = () => {
         <MoveToTop/>
         <Footer/>
         <SocialMedia/>
+        <WhatsappChat/>
         </div>
         </div>
     );

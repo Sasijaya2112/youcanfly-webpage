@@ -4,8 +4,6 @@ import s2 from './Slide Images/clg tieups/2.jpg'
 import s3 from './Slide Images/clg tieups/3.jpg'
 import s4 from './Slide Images/clg tieups/4.jpg'
 import s5 from './Slide Images/clg tieups/5.png'
-// import s6 from './Slide Images/clg tieups/6.jpg'
-
 
 function Slide3() {
   return (
