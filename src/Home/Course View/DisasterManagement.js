@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Accordion from 'react-bootstrap/Accordion';
 import Alert from 'react-bootstrap/Alert';
-import aero from './aero.png';
+import aero from './disaster.jpg';
 import { Image } from 'react-bootstrap';
 
 function DisasterManagement() {
