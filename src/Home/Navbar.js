@@ -80,13 +80,19 @@ function NavScrollExample() {
                 onMouseLeave={() => setServicesDropdownOpen(false)}
                 ref={servicesDropdownRef}
               >
-                
+                <NavDropdown.Item href="#services">Training</NavDropdown.Item>
                 <NavDropdown.Item href="#services">Aerial Photography</NavDropdown.Item>
                 <NavDropdown.Item href="#services">
-                Agrid drone spraying
+                Agricultural spraying
               </NavDropdown.Item>
               <NavDropdown.Item href="#services">
                 Surveillance
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#services">
+                Mapping and Surveying 
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#services">
+                Inspection
               </NavDropdown.Item>
               <NavDropdown.Item href="#services">
                 Drone Repair
@@ -94,7 +100,7 @@ function NavScrollExample() {
               </NavDropdown>
               {/* Courses NavDropdown */}
               <NavDropdown
-                title={<span><FaBookBookmark size={25} style={{ marginRight: '5px' }} /> Courses</span>}
+                title={<span><FaBookBookmark size={25} style={{ marginRight: '5px' }} />Training Courses</span>}
                 className='m-md-3'
                 id='navbutton'
                 show={coursesDropdownOpen}

@@ -8,8 +8,8 @@ import CounterSlide from './CounterSlide';
 const Counter = () => {
     return (
         <div className='mt-5 container'>
-            <h3>Explore your world without limitations</h3>
-            <p>Lorem ipsum dolor sit amet. Et voluptate minus ea voluptatem tempore hic omnis galisum. 33 dolor consequatur in enim nobis vel quod harum aut ipsa ipsam sit quia nisi. Qui assumenda sint aut perferendis libero quo esse ipsa. Lorem ipsum dolor sit amet. Et voluptate minus ea voluptatem tempore hic omnis galisum. 33 dolor consequatur in enim nobis vel quod harum aut ipsa ipsam sit quia nisi. Qui assumenda sint aut perferendis libero quo esse ipsa. Lorem ipsum dolor sit amet. Et voluptate minus ea voluptatem tempore hic omnis galisum. 33 dolor consequatur in enim nobis vel quod harum aut ipsa ipsam sit quia nisi. Qui assumenda sint aut perferendis libero quo esse ipsa.</p>
+            <h3>Explore your world without limitations</h3><br></br>
+            <p>Embark on a journey of limitless exploration with Drone Technology. Break free from conventional boundaries and elevate your perspective to new heights. Explore uncharted territories, capture breathtaking moments, and redefine what's possible. Whether you're a budding enthusiast or a seasoned professional, the world of drones awaits your creativity. Unleash the potential of limitless horizons, and discover a realm where the sky is no longer the limit—it's an open canvas for your imagination to soar.</p>
             <Row className='mt-5'>
                 <Col><CounterClients/></Col>
                 <Col><CounterProjects/></Col>

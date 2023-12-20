@@ -34,7 +34,7 @@ const Home = () => {
         <Col xs={12} md={6} className='mt-2'> <Slide2/></Col>
         </Row>
         <Row className='mt-5'>
-        <h1 className='mt-5 mb-5'>College tieups</h1>
+        <h1 className='mt-5 mb-5'>College Tie-ups</h1>
             <Slide3/>
         </Row>
         <Row>
