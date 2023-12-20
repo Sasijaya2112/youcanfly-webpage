@@ -64,7 +64,7 @@ const Courses = () => {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image4} />
                 <Card.Body>
-                    <Card.Title>Basic Drone Piloting</Card.Title>
+                    <Card.Title>Basic Drone <br></br> Piloting</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -90,7 +90,7 @@ const Courses = () => {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image6} />
                 <Card.Body>
-                    <Card.Title>Disaster Management</Card.Title>
+                    <Card.Title>Advanced Drone <br></br> Piloting</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -99,6 +99,18 @@ const Courses = () => {
                 </Card.Body>
             </Card>
             </Col>
+            <Col>
+            <Card style={{ width: '18rem', marginLeft:'35%' }} className='mt-3'>
+                <Card.Img variant="top" src={image6} />
+                <Card.Body>
+                    <Card.Title>Disaster Management</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <DisasterManagement/>
+                </Card.Body>
+            </Card></Col>
             </Row>
             </Container>
         </div>

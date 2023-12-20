@@ -16,19 +16,19 @@ const CollegeTieups = () => {
         <div>
         <h1 className='mt-5 mb-5'>College tie-ups & Engagement</h1>
         <Row>
-        <Col><Image src={christ} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={mvit} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={dana} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={christ} id='collegelogo'></Image></Col>
+        <Col><Image src={mvit} id='collegelogo'></Image></Col>
+        <Col><Image src={dana} id='collegelogo'></Image></Col>
         </Row>
         <Row className='mt-5 mb-5'>
-        <Col><Image src={surya} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={donbosco} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={smvec} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={surya} id='collegelogo'></Image></Col>
+        <Col><Image src={donbosco} id='collegelogo'></Image></Col>
+        <Col><Image src={smvec} id='collegelogo'></Image></Col>
         </Row>
         <Row className='mt-5 mb-5'>
-        <Col><Image src={rgcet} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={psg} style={{width:'50%',cursor:'pointer'}}></Image></Col>
-        <Col><Image src={kamaraj} style={{width:'50%',cursor:'pointer'}}></Image></Col>
+        <Col><Image src={rgcet} id='collegelogo'></Image></Col>
+        <Col><Image src={psg} id='collegelogo'></Image></Col>
+        <Col><Image src={kamaraj} id='collegelogo'></Image></Col>
         </Row>
         </div>
     );
