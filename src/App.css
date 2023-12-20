@@ -19,9 +19,45 @@
   cursor: pointer;
 }
 
+#footeralign1{
+  margin-left: 5%;
+  text-align: justify;
+  cursor: pointer;
+}
+#footeralign{
+  /* margin-left: 5%; */
+  text-align: justify;
+  cursor: pointer;
+}
+
+#disaster{
+margin-left: 35%;
+}
+#quicklinks{
+  color: white;
+}
+#quicklinks:hover{
+color: rgb(9, 177, 238);
+transition: 0.3s;
+}
+
+#services:hover{
+  color: rgb(238, 9, 108);
+  transition: 0.3s;
+  }
+
 @media (max-width: 768px) {
   #collegelogo {
       width: 50%; /* Adjust the width for mobile */
-
+  }
+  #footeralign{
+    text-align:unset;
+  }
+  #footeralign1{
+    text-align:unset;
+    margin-left: -1%;
+  }
+  #disaster{
+    margin-left: 5%;
   }
 }

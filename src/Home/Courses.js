@@ -100,7 +100,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col>
-            <Card style={{ width: '18rem', marginLeft:'35%' }} className='mt-3'>
+            <Card style={{ width: '18rem'}} id='disaster' className='mt-3'>
                 <Card.Img variant="top" src={image6} />
                 <Card.Body>
                     <Card.Title>Disaster Management</Card.Title>
