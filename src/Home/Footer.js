@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import { PiFacebookLogoFill } from "react-icons/pi";
-import { PiFacebookLogoLight } from "react-icons/pi";
-import { TbBrandYoutubeFilled } from "react-icons/tb";
-import { TbBrandYoutube } from "react-icons/tb";
-import { PiLinkedinLogoFill } from "react-icons/pi";
-import { PiLinkedinLogoLight } from "react-icons/pi";
+// import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { PiFacebookLogoFill } from "react-icons/pi";
+// import { PiFacebookLogoLight } from "react-icons/pi";
+// import { TbBrandYoutubeFilled } from "react-icons/tb";
+// import { TbBrandYoutube } from "react-icons/tb";
+// import { PiLinkedinLogoFill } from "react-icons/pi";
+// import { PiLinkedinLogoLight } from "react-icons/pi";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { GiDeliveryDrone } from "react-icons/gi";
 import { GiHighGrass } from "react-icons/gi";
@@ -24,47 +24,47 @@ import { FaBloggerB } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 
 const Footer = () => {
-    const [isHoveredFacebook, setIsHoveredFacebook] = useState(false);
-    const [isHoveredInstagram, setIsHoveredInstagram] = useState(false);
-    const [isHoveredYoutube, setIsHoveredYoutube] = useState(false);
-    const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
+    // const [isHoveredFacebook, setIsHoveredFacebook] = useState(false);
+    // const [isHoveredInstagram, setIsHoveredInstagram] = useState(false);
+    // const [isHoveredYoutube, setIsHoveredYoutube] = useState(false);
+    // const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
   
-    const handleMouseEnterFacebook = () => {
-      setIsHoveredFacebook(true);
-    };
+    // const handleMouseEnterFacebook = () => {
+    //   setIsHoveredFacebook(true);
+    // };
   
-    const handleMouseLeaveFacebook = () => {
-      setIsHoveredFacebook(false);
-    };
+    // const handleMouseLeaveFacebook = () => {
+    //   setIsHoveredFacebook(false);
+    // };
   
-    const handleMouseEnterInstagram = () => {
-      setIsHoveredInstagram(true);
-    };
+    // const handleMouseEnterInstagram = () => {
+    //   setIsHoveredInstagram(true);
+    // };
   
-    const handleMouseLeaveInstagram = () => {
-      setIsHoveredInstagram(false);
-    };
+    // const handleMouseLeaveInstagram = () => {
+    //   setIsHoveredInstagram(false);
+    // };
 
-    const handleMouseEnterYoutube = () => {
-        setIsHoveredYoutube(true);
-    }
+    // const handleMouseEnterYoutube = () => {
+    //     setIsHoveredYoutube(true);
+    // }
 
-    const handleMouseLeaveYoutube = () => {
-        setIsHoveredYoutube(false);
-    }
+    // const handleMouseLeaveYoutube = () => {
+    //     setIsHoveredYoutube(false);
+    // }
 
-    const handleMouseEnterLinkedin = () => {
-        setIsHoveredLinkedin(true);
-    }
+    // const handleMouseEnterLinkedin = () => {
+    //     setIsHoveredLinkedin(true);
+    // }
 
-    const handleMouseLeaveLinkedin = () => {
-        setIsHoveredLinkedin(false);
-    }
+    // const handleMouseLeaveLinkedin = () => {
+    //     setIsHoveredLinkedin(false);
+    // }
 
     return (
         <footer className="bg-dark text-light mt-5">
             <Container>
-                <Row style={{ marginLeft: '0%' }} className="justify-content-md-center">
+                {/* <Row style={{ marginLeft: '0%' }} className="justify-content-md-center">
                     <Col xs={3} md={1} className='mt-5 mb-5'>
                     <a href="https://www.facebook.com/ycf.puducherry" target="_blank" rel="noopener noreferrer">
                         {isHoveredFacebook ? (
@@ -101,7 +101,7 @@ const Footer = () => {
                         )}    
                         </a>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                 <Col md={2} className='mt-5' id='footeralign1'>
                         <h5>Quick Links</h5>
@@ -129,21 +129,25 @@ const Footer = () => {
                             &nbsp; &nbsp; &nbsp; &nbsp;Mudaliarpet, Puducherry - 605004 <br></br>
                             &nbsp; &nbsp; &nbsp; &nbsp;India
                         </p>
-                        <p className='mt-4'><FaPhone />  &nbsp;+91 786 789 7000</p>
-                        <p><MdEmail/> &nbsp;&nbsp;info@youcanfly.in</p>
+                        <p className='mt-4'><FaPhone />  &nbsp;<a href="tel:+917867897000" style={{textDecoration:'none'}} id='quicklinks'>+91 786 789 7000</a></p>
+                        <p><MdEmail/> &nbsp;&nbsp;<a href='mailto:info@youcanfly.in' style={{textDecoration:'none'}} id='quicklinks'>info@youcanfly.in</a></p>
                         {/* <p>info@youcanfly.in</p> */}
                     </Col>
 
-                    <Col md={3} className='mt-3'>
+                    <Col md={3} className='mt-5'>
                         <h5>Location</h5>
                         <div className="google-map-code mt-3">
                             <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.815990435756!2d79.8039597751848!3d11.917890688308974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53612226dc7ab9%3A0xd5566b406c8c9954!2sYou%20Can%20Fly!5e0!3m2!1sen!2sin!4v1701865341748!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </Col>
                 </Row>
-
                 <Row>
-                    <Col className="text-center mt-4">
+                    <Col className="mt-5" md={3}>
+                        <h6><a href='https://www.google.com' style={{textDecoration:'none'}} target='blank' id='quicklinks'>Terms & Condition</a> | <a href='https://www.google.com' style={{textDecoration:'none'}} target='blank' id='services'>Privacy Policy</a></h6>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="text-center">
                         <hr/>
                         <p>Copyright&copy; {new Date().getFullYear()} Yourbackers Aeromodelling Private Ltd</p>
                     </Col>

@@ -20,11 +20,11 @@ const AboutUs = () => {
                     <Row>
                         <Col md={6} xs={12}>
                             <b style={{color:'#0e77ed'}}>Our Mission:</b><br></br><br></br>
-                            <p style={{textAlign:'justify'}}>At the core of You Can Fly Drone Technology Academy is our unwavering mission to democratize access to drone education. We strive to break barriers and make drone technology accessible to everyone, from aspiring professionals seeking career opportunities to hobbyists looking to explore the limitless possibilities of unmanned aerial vehicles.</p>
+                            <p style={{textAlign:'justify', fontSize:'90%'}}>At the core of You Can Fly Drone Technology Academy is our unwavering mission to democratize access to drone education. We strive to break barriers and make drone technology accessible to everyone, from aspiring professionals seeking career opportunities to hobbyists looking to explore the limitless possibilities of unmanned aerial vehicles.</p>
                         </Col>
                         <Col md={6} xs={12}>
                             <b style={{color:'#0e77ed'}}>Our Vision:</b><br></br><br></br>
-                            <p style={{textAlign:'justify'}}>At the core of You Can Fly Drone Technology Academy is our unwavering mission to democratize access to drone education. We strive to break barriers and make drone technology accessible to everyone, from aspiring professionals seeking career opportunities to hobbyists looking to explore the limitless possibilities of unmanned aerial vehicles.</p>
+                            <p style={{textAlign:'justify', fontSize:'90%'}}>At the core of You Can Fly Drone Technology Academy is our unwavering mission to democratize access to drone education. We strive to break barriers and make drone technology accessible to everyone, from aspiring professionals seeking career opportunities to hobbyists looking to explore the limitless possibilities of unmanned aerial vehicles.</p>
                         </Col>
                     </Row>
                     <br></br><br></br>

@@ -80,7 +80,7 @@ function NavScrollExample() {
                 onMouseLeave={() => setServicesDropdownOpen(false)}
                 ref={servicesDropdownRef}
               >
-                <NavDropdown.Item href="#services">Training</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#services">Training</NavDropdown.Item> */}
                 <NavDropdown.Item href="#services">Aerial Photography</NavDropdown.Item>
                 <NavDropdown.Item href="#services">
                 Agricultural spraying
