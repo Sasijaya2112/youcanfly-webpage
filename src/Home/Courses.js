@@ -5,7 +5,8 @@ import image2 from './Courses Images/uav.png';
 import image3 from './Courses Images/Aerial.png';
 import image4 from './Courses Images/drone pilot.png';
 import image5 from './Courses Images/agri1.png';
-import image6 from './Courses Images/disaster.png';
+import image6 from './Courses Images/advancedronepiloting.png';
+import image7 from './Courses Images/disaster.png';
 import AeromodellingCourse from './Course View/AeromodellingCourse';
 import UavCourse from './Course View/UavCourse';
 import AerialCinematography from './Course View/AerialCinematography';
@@ -21,8 +22,8 @@ const Courses = () => {
             <hr></hr>
             <Row className='mt-5' style={{marginLeft:'4%'}}>
             <Col className='m-3' id='aeromodelling'>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image1} alt='aeromodelling' />
+            <Card style={{ width: '18rem' }}  className='animated-image' >
+                <Card.Img variant="top" src={image1} alt='aeromodelling'/>
                 <Card.Body>
                     <Card.Title>Aeromodelling</Card.Title>
                     <Card.Text>
@@ -35,7 +36,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col className='m-3' id='uav'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='animated-image' >
                 <Card.Img variant="top" src={image2} />
                 <Card.Body>
                     <Card.Title>UAV Engineering</Card.Title>
@@ -48,7 +49,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col className='m-3' id='aerial'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='animated-image' >
                 <Card.Img variant="top" src={image3} />
                 <Card.Body>
                     <Card.Title>Aerial Cinematography</Card.Title>
@@ -61,7 +62,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col className='m-3' id='dronepilot'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='animated-image' >
                 <Card.Img variant="top" src={image4} />
                 <Card.Body>
                     <Card.Title>Basic Drone <br></br> Piloting</Card.Title>
@@ -74,7 +75,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col className='m-3' id='agri'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='animated-image' >
                 <Card.Img variant="top" src={image5} />
                 <Card.Body>
                     <Card.Title>Agricultural Drone Operation</Card.Title>
@@ -87,7 +88,7 @@ const Courses = () => {
             </Card>
             </Col>
             <Col className='m-3' id='disaster'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='animated-image' >
                 <Card.Img variant="top" src={image6} />
                 <Card.Body>
                     <Card.Title>Advanced Drone <br></br> Piloting</Card.Title>
@@ -100,8 +101,8 @@ const Courses = () => {
             </Card>
             </Col>
             <Col>
-            <Card style={{ width: '18rem'}} id='disaster' className='mt-3'>
-                <Card.Img variant="top" src={image6} />
+            <Card style={{ width: '18rem'}} id='disaster' className='mt-3 animated-image'  >
+                <Card.Img variant="top" src={image7} />
                 <Card.Body>
                     <Card.Title>Disaster Management</Card.Title>
                     <Card.Text>

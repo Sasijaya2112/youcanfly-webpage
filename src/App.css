@@ -61,3 +61,27 @@ transition: 0.3s;
     margin-left: 5%;
   }
 }
+
+#counterslide{
+  width: 70%;
+  margin-left: 15%;
+}
+@media (max-width: 768px) {
+  #counterslide{
+  width: 100%;
+  margin-left: 0%;
+  }
+}
+
+.animated-image {
+  transition: transform 0.4s ease-in-out; /* Specify the transition property */
+  box-shadow: 5px 5px 10px rgba(167, 167, 167, 0.2);
+}
+
+.animated-image:hover {
+  background-color: rgb(245, 247, 249);
+  transform: scale(1.1); /* Apply the scaling effect on hover */
+  cursor: pointer;
+  /* transition-delay:0.2s; */
+  transition-property: all;
+}

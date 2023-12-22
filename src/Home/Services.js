@@ -3,15 +3,9 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import aerial from './Courses Images/Aerial.png'
 import agri from './Courses Images/agri1.png'
-import surveillance from './Courses Images/dronepiloting.png'
 import dronerepair from './Courses Images/uav.png'
-// import { useState, useEffect } from 'react';
 
 function JustifiedExample() {
-
-    const handleChange =()=>{
-
-    }
     
     return (
         <div className='container'>
@@ -23,7 +17,7 @@ function JustifiedExample() {
                 className="mb-3 mt-5"
                 justify
             >
-                <Tab eventKey="Aerial photography" title="Aerial photography" onClick={handleChange}>
+                <Tab eventKey="Aerial photography" title="Aerial photography">
                     <Row>
                         <Col md={6}>
                             <Image src={aerial} width='80%' rounded className='mt-5'></Image>
@@ -56,7 +50,7 @@ function JustifiedExample() {
                 <Tab eventKey="Surveillance" title="Surveillance">
                     <Row>
                         <Col md={6}>
-                            <Image src={surveillance} width='80%' rounded className='mt-5'></Image>
+                            <Image src={dronerepair} width='80%' rounded className='mt-5'></Image>
                         </Col>
                         <Col className='mt-5'>
                             <p>Lorem ipsum dolor sit amet. Et voluptate minus ea voluptatem tempore hic omnis galisum. 33 dolor consequatur in enim nobis vel quod harum aut ipsa ipsam sit quia nisi. Qui assumenda sint aut perferendis libero quo esse ipsa.

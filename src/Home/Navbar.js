@@ -8,12 +8,27 @@ import { AiOutlineSolution } from "react-icons/ai";
 import { FaBookBookmark } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { IoIosPeople } from "react-icons/io";
 
 function NavScrollExample() {
+
   const servicesDropdownRef = useRef(null);
   const coursesDropdownRef = useRef(null);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const [coursesDropdownOpen, setCoursesDropdownOpen] = useState(false);
+
+  // const handleLinkClick=() =>{
+  //   ('tab1');
+  // } 
+  // const handleLinkClick=() =>{
+  //   ('tab2');
+  // } 
+  // const handleLinkClick=() =>{
+  //   ('tab3');
+  // } 
+  // const handleLinkClick=() =>{
+  //   ('tab4');
+  // } 
 
   useEffect(() => {
     const handleServicesMouseEnter = () => {
@@ -68,7 +83,7 @@ function NavScrollExample() {
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'15%' }} navbarScroll>
+            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'6%' }} navbarScroll>
               <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
               {/* Services NavDropdown */}
               <NavDropdown
@@ -89,14 +104,15 @@ function NavScrollExample() {
                 Surveillance
               </NavDropdown.Item>
               <NavDropdown.Item href="#services">
+                Drone Repair
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#services">
                 Mapping and Surveying 
               </NavDropdown.Item>
               <NavDropdown.Item href="#services">
                 Inspection
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#services">
-                Drone Repair
-              </NavDropdown.Item>
+              </NavDropdown.Item>             
               </NavDropdown>
               {/* Courses NavDropdown */}
               <NavDropdown
@@ -125,6 +141,7 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href='#team' className='m-md-3' id='navbutton'><IoIosPeople size={30} /> Our Team</Nav.Link>
               {/* <Link to='/youcanfly-webpage/blog'> */}
               <Nav.Link href='/youcanfly-webpage/blog' className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
               {/* </Link> */}

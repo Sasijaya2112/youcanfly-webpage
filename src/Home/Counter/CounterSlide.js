@@ -7,7 +7,7 @@ import slide4 from './CounterSlide Images/4.png';
 
 function CounterSlide() {
   return (
-    <Carousel fade className='mt-5 w-70'>
+    <Carousel fade className='mt-5' id='counterslide'>
       <Carousel.Item>
       <img
           className="d-block w-100"

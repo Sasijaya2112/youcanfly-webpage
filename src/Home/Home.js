@@ -16,8 +16,10 @@ import Slide3 from './Slide3';
 import Slide4 from './Slide4';
 // import HorizontalSlider from './HorizontalSlider';
 import WhatsappChat from './WhatsappChat';
+import Team from './Team/Team';
 
 const Home = () => {
+
     return (
         <div>
             <div className='Home'>
@@ -27,6 +29,7 @@ const Home = () => {
         <Courses/>
         <Counter/>
         <Services/>
+        <Team/>
         <Container>
         <Row>
         <h1 className='mt-5 mb-5'>Our Gallery</h1>
