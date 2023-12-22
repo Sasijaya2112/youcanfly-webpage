@@ -15,7 +15,8 @@ const CollegeTieups = () => {
     return (
         <div>
         <h1 className='mt-5 mb-5'>College tie-ups & Engagement</h1>
-        <Row>
+        <hr/>
+        <Row className='mt-5'>
         <Col><Image src={christ} id='collegelogo'></Image></Col>
         <Col><Image src={mvit} id='collegelogo'></Image></Col>
         <Col><Image src={dana} id='collegelogo'></Image></Col>
