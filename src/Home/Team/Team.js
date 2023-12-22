@@ -30,7 +30,7 @@ function Team() {
           <h6>(Chief Operating Officer)</h6>
         </Col>
         </Row>
-        <Row className='mt-5 justify-content-center'>
+        <Row className='justify-content-center'>
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/saraswathe-baskaran-a10106192/' target='blanl'><Image src={saras} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
           <h3 className='mt-3'>Ms. Saraswathe</h3>
@@ -49,12 +49,12 @@ function Team() {
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/sasidharan-jayabalan-273b90192/' target='blanl'><Image src={sasi} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
           <h3 className='mt-3'>Mr. Sasidharan</h3>
-          <h6>(Trainee UAV Engineer)</h6>
+          <h6>(UAV Engineer)</h6>
         </Col>
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/sethuram-b-2962a2229/' target='blanl'><Image src={sethu} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
           <h3 className='mt-3'>Mr. Sethuraman</h3>
-          <h6>(Co-pilot)</h6>
+          <h6>(Drone Pilot)</h6>
         </Col>
         {/* <Col xs={12} md={4} className='mt-5'>
           <Image src={sample} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle />
