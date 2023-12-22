@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/youcanfly-webpage/static/css/main.8eebcbcf.css",
-    "main.js": "/youcanfly-webpage/static/js/main.48fe39a4.js",
+    "main.js": "/youcanfly-webpage/static/js/main.68ddbf02.js",
     "static/js/787.cfabb035.chunk.js": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js",
     "static/media/ycfvideo1.mp4": "/youcanfly-webpage/static/media/ycfvideo1.0800b0c6f376be0ab3b3.mp4",
     "static/media/dronepiloting.jpg": "/youcanfly-webpage/static/media/dronepiloting.7d792cdc82abfb652d65.jpg",
@@ -72,11 +72,11 @@
     "static/media/MVIT.jpg": "/youcanfly-webpage/static/media/MVIT.c6c93d904a49956b7e5f.jpg",
     "index.html": "/youcanfly-webpage/index.html",
     "main.8eebcbcf.css.map": "/youcanfly-webpage/static/css/main.8eebcbcf.css.map",
-    "main.48fe39a4.js.map": "/youcanfly-webpage/static/js/main.48fe39a4.js.map",
+    "main.68ddbf02.js.map": "/youcanfly-webpage/static/js/main.68ddbf02.js.map",
     "787.cfabb035.chunk.js.map": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eebcbcf.css",
-    "static/js/main.48fe39a4.js"
+    "static/js/main.68ddbf02.js"
   ]
 }
