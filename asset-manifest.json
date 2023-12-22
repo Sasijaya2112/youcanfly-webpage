@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/youcanfly-webpage/static/css/main.c9ce02da.css",
-    "main.js": "/youcanfly-webpage/static/js/main.489a76b6.js",
+    "main.css": "/youcanfly-webpage/static/css/main.8eebcbcf.css",
+    "main.js": "/youcanfly-webpage/static/js/main.48fe39a4.js",
     "static/js/787.cfabb035.chunk.js": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js",
     "static/media/ycfvideo1.mp4": "/youcanfly-webpage/static/media/ycfvideo1.0800b0c6f376be0ab3b3.mp4",
     "static/media/dronepiloting.jpg": "/youcanfly-webpage/static/media/dronepiloting.7d792cdc82abfb652d65.jpg",
@@ -34,6 +34,7 @@
     "static/media/djiphantom4pro.png": "/youcanfly-webpage/static/media/djiphantom4pro.cdcf6ed37d8b80b3817e.png",
     "static/media/Aerial.png": "/youcanfly-webpage/static/media/Aerial.7d66668abafad22ee1a2.png",
     "static/media/drone pilot.png": "/youcanfly-webpage/static/media/drone pilot.3e866b9e2474a7b4bb21.png",
+    "static/media/advancedronepiloting.png": "/youcanfly-webpage/static/media/advancedronepiloting.dc709aa19fcc15adb258.png",
     "static/media/logowhite.jpg": "/youcanfly-webpage/static/media/logowhite.e3d92a65a33ef1108884.jpg",
     "static/media/4.jpg": "/youcanfly-webpage/static/media/4.bb2bb8dd6de31ffd7148.jpg",
     "static/media/ycflogo.png": "/youcanfly-webpage/static/media/ycflogo.0e886c21a88331623645.png",
@@ -46,16 +47,22 @@
     "static/media/2.jpg": "/youcanfly-webpage/static/media/2.20140f09faa0191a38fe.jpg",
     "static/media/5.jpg": "/youcanfly-webpage/static/media/5.0d1823fe190880cb0049.jpg",
     "static/media/doublearrow.png": "/youcanfly-webpage/static/media/doublearrow.39157b0b3ca90b85a3bc.png",
+    "static/media/ceo.jpg": "/youcanfly-webpage/static/media/ceo.6e12a10f2e15223166c7.jpg",
     "static/media/autelevo2pro.png": "/youcanfly-webpage/static/media/autelevo2pro.fbfc742c6702a9c8b373.png",
     "static/media/skydio2.png": "/youcanfly-webpage/static/media/skydio2.ae48e07cf9b900b3d922.png",
     "static/media/disaster.jpg": "/youcanfly-webpage/static/media/disaster.86060a77f60687b7728c.jpg",
+    "static/media/sethu.jpeg": "/youcanfly-webpage/static/media/sethu.9afaac5b2df98686b90c.jpeg",
+    "static/media/sasi.jpg": "/youcanfly-webpage/static/media/sasi.9b5ac0c29152c3b31c79.jpg",
+    "static/media/Gopi.jpg": "/youcanfly-webpage/static/media/Gopi.a8256745db91a23afc64.jpg",
+    "static/media/muni.jpg": "/youcanfly-webpage/static/media/muni.81082ce3fa5ef7b6489e.jpg",
     "static/media/djimavic3pro.png": "/youcanfly-webpage/static/media/djimavic3pro.a81f773d5de571486a07.png",
+    "static/media/hanurag.jpg": "/youcanfly-webpage/static/media/hanurag.7571e58cb72d06563784.jpg",
     "static/media/improve-aerial-shots.png": "/youcanfly-webpage/static/media/improve-aerial-shots.a9cd91a22994ebc9145b.png",
     "static/media/donbosco.png": "/youcanfly-webpage/static/media/donbosco.13b640d3bd6ae4f7c3f7.png",
     "static/media/droneaerial.png": "/youcanfly-webpage/static/media/droneaerial.19cc121757a2a1690cb2.png",
+    "static/media/saras.jpg": "/youcanfly-webpage/static/media/saras.9dc7e111993347f2e7b4.jpg",
     "static/media/djiair2s.jpg": "/youcanfly-webpage/static/media/djiair2s.5731a0789dce2b3532ef.jpg",
     "static/media/best-drone.png": "/youcanfly-webpage/static/media/best-drone.1b69177f9b6fd37b97a0.png",
-    "static/media/dronepiloting.png": "/youcanfly-webpage/static/media/dronepiloting.15dad7d5e84828c879e4.png",
     "static/media/DANA.png": "/youcanfly-webpage/static/media/DANA.2920eb816b9d3d25b4c4.png",
     "static/media/kamaraj.png": "/youcanfly-webpage/static/media/kamaraj.04aa378e29cf6d0851fc.png",
     "static/media/surya.jpg": "/youcanfly-webpage/static/media/surya.ae79e306a90af5ac1df0.jpg",
@@ -64,12 +71,12 @@
     "static/media/psg.jpg": "/youcanfly-webpage/static/media/psg.d2b08295085d7c86c492.jpg",
     "static/media/MVIT.jpg": "/youcanfly-webpage/static/media/MVIT.c6c93d904a49956b7e5f.jpg",
     "index.html": "/youcanfly-webpage/index.html",
-    "main.c9ce02da.css.map": "/youcanfly-webpage/static/css/main.c9ce02da.css.map",
-    "main.489a76b6.js.map": "/youcanfly-webpage/static/js/main.489a76b6.js.map",
+    "main.8eebcbcf.css.map": "/youcanfly-webpage/static/css/main.8eebcbcf.css.map",
+    "main.48fe39a4.js.map": "/youcanfly-webpage/static/js/main.48fe39a4.js.map",
     "787.cfabb035.chunk.js.map": "/youcanfly-webpage/static/js/787.cfabb035.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9ce02da.css",
-    "static/js/main.489a76b6.js"
+    "static/css/main.8eebcbcf.css",
+    "static/js/main.48fe39a4.js"
   ]
 }
