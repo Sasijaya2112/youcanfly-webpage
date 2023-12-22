@@ -3,7 +3,7 @@ import Slide1 from './Slide1';
 import AboutUs from './AboutUs';
 import Courses from './Courses';
 import Video from './Video';
-import Services from './Services';
+// import Services from './Services';
 import Footer from './Footer';
 import { Row, Col, Container } from 'react-bootstrap';
 import CollegeTieups from './CollegeTieups';
@@ -28,7 +28,7 @@ const Home = () => {
         <AboutUs/>
         <Courses/>
         <Counter/>
-        <Services/>
+        {/* <Services/> */}
         <Team/>
         <Container>
         <Row>

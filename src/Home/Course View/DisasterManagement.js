@@ -26,7 +26,7 @@ function DisasterManagement() {
         </Modal.Header>
         <Modal.Body>
           <div className='container mt-3 mb-3'>
-            <Image src={aero} className='w-100'></Image><br></br><br></br>
+            <Image src={aero} className='w-100 animated-image'></Image><br></br><br></br>
             Drones are pivotal in disaster response, swiftly assessing damage and locating survivors with aerial cameras and sensors. They establish communication networks, deliver crucial supplies to inaccessible areas, and aid in environmental monitoring. Their ability to map affected regions assists in planning effective response strategies, enabling rapid and targeted assistance during crises.
           </div>
             <Alert key='warning' variant='warning'>

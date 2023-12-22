@@ -26,7 +26,7 @@ function AeromodellingCourse() {
         </Modal.Header>
         <Modal.Body>
           <div className='container mt-3 mb-3'>
-            <Image src={aero} className='w-100'></Image><br></br><br></br>
+            <Image src={aero} className='w-100 animated-image'></Image><br></br><br></br>
             Aeromodelling is the art and hobby of designing, building, and flying miniature aircraft models. These models can range from simple, hand-launched gliders to intricate, radio-controlled airplanes or helicopters. The practice involves creating scaled-down replicas of real aircraft or entirely original designs, often using materials like balsa wood, foam, plastic, or even high-tech composite materials.
           </div>
             <Alert key='warning' variant='warning'>

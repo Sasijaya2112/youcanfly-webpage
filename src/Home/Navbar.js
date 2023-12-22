@@ -17,19 +17,6 @@ function NavScrollExample() {
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const [coursesDropdownOpen, setCoursesDropdownOpen] = useState(false);
 
-  // const handleLinkClick=() =>{
-  //   ('tab1');
-  // } 
-  // const handleLinkClick=() =>{
-  //   ('tab2');
-  // } 
-  // const handleLinkClick=() =>{
-  //   ('tab3');
-  // } 
-  // const handleLinkClick=() =>{
-  //   ('tab4');
-  // } 
-
   useEffect(() => {
     const handleServicesMouseEnter = () => {
       setServicesDropdownOpen(true);
@@ -96,21 +83,21 @@ function NavScrollExample() {
                 ref={servicesDropdownRef}
               >
                 {/* <NavDropdown.Item href="#services">Training</NavDropdown.Item> */}
-                <NavDropdown.Item href="#services">Aerial Photography</NavDropdown.Item>
-                <NavDropdown.Item href="#services">
+                <NavDropdown.Item className="nav-dropdown-item" href="#services">Aerial Photography</NavDropdown.Item>
+                <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Agricultural spraying
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services">
+              <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Surveillance
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services">
+              <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Drone Repair
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#services">
+              <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Mapping and Surveying 
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services">
+              <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Inspection
               </NavDropdown.Item>             
               </NavDropdown>
@@ -124,20 +111,20 @@ function NavScrollExample() {
                 onMouseLeave={() => setCoursesDropdownOpen(false)}
                 ref={coursesDropdownRef}
               >
-                <NavDropdown.Item href="#aeromodelling">Aeromodelling</NavDropdown.Item>
-                <NavDropdown.Item href="#uav">
+                <NavDropdown.Item className="nav-dropdown-item" href="#aeromodelling">Aeromodelling</NavDropdown.Item>
+                <NavDropdown.Item className="nav-dropdown-item" href="#uav">
                 UAV Engineering
               </NavDropdown.Item>
-              <NavDropdown.Item href="#aerial">
+              <NavDropdown.Item className="nav-dropdown-item" href="#aerial">
                 Aerial Cinematography
               </NavDropdown.Item>
-              <NavDropdown.Item href="#dronepilot">
+              <NavDropdown.Item className="nav-dropdown-item" href="#dronepilot">
                 Drone Piloting
               </NavDropdown.Item>
-              <NavDropdown.Item href="#agri">
+              <NavDropdown.Item className="nav-dropdown-item" href="#agri">
                 Agricultural Drone
               </NavDropdown.Item>
-              <NavDropdown.Item href="#disaster">
+              <NavDropdown.Item className="nav-dropdown-item" href="#disaster">
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown>

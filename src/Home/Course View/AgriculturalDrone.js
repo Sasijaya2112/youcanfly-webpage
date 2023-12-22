@@ -26,7 +26,7 @@ function AgriculturalDrone() {
         </Modal.Header>
         <Modal.Body>
           <div className='container mt-3 mb-3'>
-            <Image src={aero} className='w-100'></Image><br></br><br></br>
+            <Image src={aero} className='w-100 animated-image'></Image><br></br><br></br>
             Agricultural drone spraying involves the use of unmanned aerial vehicles (UAVs) equipped with spraying systems to apply fertilizers, pesticides, or other agricultural inputs to crops. These drones are equipped with tanks and nozzles that dispense precise amounts of liquid or granular substances onto fields or crops. This technology offers farmers the advantage of precision application, allowing for targeted and efficient distribution of agrochemicals, reducing waste, and potentially minimizing environmental impact. Agri drone spraying can cover large areas quickly, accessing challenging or remote terrain that might be difficult for traditional spraying equipment to reach.
           </div>
             <Alert key='warning' variant='warning'>

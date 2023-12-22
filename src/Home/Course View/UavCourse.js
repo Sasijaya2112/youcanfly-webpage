@@ -26,7 +26,7 @@ function UavCourse() {
         </Modal.Header>
         <Modal.Body>
           <div className='container mt-3 mb-3'>
-            <Image src={uav} className='w-100'></Image><br></br><br></br>
+            <Image src={uav} className='w-100 animated-image'></Image><br></br><br></br>
             UAV (Unmanned Aerial Vehicle) engineering involves the design, development, and construction of autonomous or remotely piloted aircraft used for various purposes like surveillance, mapping, delivery, and more. It encompasses creating robust systems for flight control, navigation, sensors, and communication, often leveraging cutting-edge technologies like AI, machine learning, and advanced materials. UAV engineers focus on optimizing aerodynamics, payload capacity, energy efficiency, and reliability while adhering to safety standards and regulatory compliance. The field requires expertise in aeronautical engineering, electronics, software development, and often involves interdisciplinary collaboration to advance UAV capabilities and applications.
           </div>
             <Alert key='warning' variant='warning'>
