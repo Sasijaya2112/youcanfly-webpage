@@ -9,6 +9,7 @@ import { FaBookBookmark } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { IoIosPeople } from "react-icons/io";
+import { GiAutoRepair } from "react-icons/gi";
 
 function NavScrollExample() {
 
@@ -70,7 +71,7 @@ function NavScrollExample() {
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'6%' }} navbarScroll>
+            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'2%' }} navbarScroll>
               <Nav.Link href="#aboutus" className='m-md-3' id='navbutton'><TbDrone size={30} /> About Us</Nav.Link>
               {/* Services NavDropdown */}
               <NavDropdown
@@ -91,7 +92,7 @@ function NavScrollExample() {
                 Surveillance
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-dropdown-item" href="#services">
-                Drone Repair
+                Drone Repair & Maintenance
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item className="nav-dropdown-item" href="#services">
@@ -129,6 +130,7 @@ function NavScrollExample() {
               </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href='#team' className='m-md-3' id='navbutton'><IoIosPeople size={30} /> Our Team</Nav.Link>
+              <Nav.Link href='/youcanfly-webpage/dronerepair' className='m-md-3' id='navbutton'><GiAutoRepair size={30} /> Drone Repair</Nav.Link>
               {/* <Link to='/youcanfly-webpage/blog'> */}
               <Nav.Link href='/youcanfly-webpage/blog' className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
               {/* </Link> */}
