@@ -49,7 +49,7 @@ function Team() {
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/sasidharan-jayabalan-273b90192/' target='blanl'><Image src={sasi} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
           <h3 className='mt-3'>Mr. Sasidharan</h3>
-          <h6>(UAV Engineer)</h6>
+          <h6>(Junior UAV Engineer)</h6>
         </Col>
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/sethuram-b-2962a2229/' target='blanl'><Image src={sethu} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
