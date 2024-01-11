@@ -104,7 +104,7 @@ function NavScrollExample() {
               </NavDropdown>
               {/* Courses NavDropdown */}
               <NavDropdown
-                title={<span><FaBookBookmark size={25} style={{ marginRight: '5px' }} />Training Courses</span>}
+                title={<span><FaBookBookmark size={30} style={{ marginRight: '5px' }} />Training Courses</span>}
                 className='m-md-3'
                 id='navbutton'
                 show={coursesDropdownOpen}
