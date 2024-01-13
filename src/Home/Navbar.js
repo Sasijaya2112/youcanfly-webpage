@@ -91,7 +91,7 @@ function NavScrollExample() {
               <NavDropdown.Item className="nav-dropdown-item" href="#services">
                 Surveillance
               </NavDropdown.Item>
-              <NavDropdown.Item className="nav-dropdown-item" href="#services">
+              <NavDropdown.Item className="nav-dropdown-item" href="/dronerepair">
                 Drone Repair & Maintenance
               </NavDropdown.Item>
               <NavDropdown.Divider />
