@@ -22,6 +22,8 @@ import { MdLocationOn } from "react-icons/md";
 import { IoMdHome } from "react-icons/io";
 import { FaBloggerB } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
+import TermsandCondition from './TermsandCondition';
+import PrivacyPolicy from './PrivacyPolicy';
 
 const Footer = () => {
     // const [isHoveredFacebook, setIsHoveredFacebook] = useState(false);
@@ -143,7 +145,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col className="mt-5" md={3}>
-                        <h6><a href='https://www.google.com' style={{textDecoration:'none'}} target='blank' id='quicklinks'>Terms & Condition</a> | <a href='https://www.google.com' style={{textDecoration:'none'}} target='blank' id='services'>Privacy Policy</a></h6>
+                        <span id='quicklinks'><TermsandCondition/>&nbsp;</span>|<span id='services'>&nbsp;<PrivacyPolicy/></span>
                     </Col>
                 </Row>
                 <Row>
