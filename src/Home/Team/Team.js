@@ -17,12 +17,12 @@ function Team() {
         <h1 className='mt-5'>Our Team</h1>
         <hr/>
       <Row className='mt-5 justify-content-center'>
-        <Col xs={12} md={4} className='mt-5'>
+        {/* <Col xs={12} md={4} className='mt-5'>
           <a href='https://www.linkedin.com/in/narayenyoucanfly/' target='blanl'><Image src={ceo} style={{width:'200px', height:'200px'}} className='team-image' roundedCircle /></a>
           <h2 className='mt-3'>CEO & Founder</h2>
           <h3>Mr.Lakshmi Narayanan</h3>
           <h6>(Chief Executing Officer)</h6>
-        </Col>
+        </Col> */}
         <Col xs={12} md={4} className='mt-5'>
         <a href='https://www.linkedin.com/in/gopi-kupparao-89350212/' target='blanl'><Image src={coo} style={{width:'200px',height:'200px'}} className='team-image' roundedCircle /></a>
           <h2 className='mt-3'>COO</h2>

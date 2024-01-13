@@ -40,7 +40,7 @@ function SocialMedia() {
         <FaFacebook />
       </Button>
       <Button
-        href="https://www.twitter.com/"
+        href="https://www.twitter.com/YoucanflyInfo"
         target="_blank"
         rel="noopener noreferrer"
         className="button twitter"

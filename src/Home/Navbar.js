@@ -65,7 +65,7 @@ function NavScrollExample() {
       <Navbar expand="lg" className='bg-body-tertiary' sticky="top">
         <Container fluid>
           <div className="mb-0">
-          <Link to='/youcanfly-webpage/home'>
+          <Link to='/home'>
             <Image src={ycf_logo} alt="ycflogo" fluid style={{ height:'120px', width:'120px' }}/>
             </Link>
           </div>
@@ -130,9 +130,9 @@ function NavScrollExample() {
               </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href='#team' className='m-md-3' id='navbutton'><IoIosPeople size={30} /> Our Team</Nav.Link>
-              <Nav.Link href='/youcanfly-webpage/dronerepair' className='m-md-3' id='navbutton'><GiAutoRepair size={30} /> Drone Repair</Nav.Link>
+              <Nav.Link href='/dronerepair' className='m-md-3' id='navbutton'><GiAutoRepair size={30} /> Drone Repair</Nav.Link>
               {/* <Link to='/youcanfly-webpage/blog'> */}
-              <Nav.Link href='/youcanfly-webpage/blog' className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              <Nav.Link href='/blog' className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
               {/* </Link> */}
               <Nav.Link href="https://sasijaya2112.github.io/youcanfly_lms/" target='blank' className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
               <ContactUs/>

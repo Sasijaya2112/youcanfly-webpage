@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container} from 'react-bootstrap';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
+import Navbar from '../DroneRepair/Navbar'
 import SocialMedia from '../Home/SocialMedia';
 import BlogCard from './BlogCard';
 import Footer from '../Home/Footer';

@@ -58,14 +58,14 @@ function NavScrollExample() {
       <Navbar expand="lg" className='bg-body-tertiary' sticky="top">
         <Container fluid>
           <div className="mb-0">
-            <Link to='/youcanfly-webpage/home'>
+            <Link to='/home'>
             <Image src={ycf_logo} alt="ycflogo" fluid style={{ height:'120px', width:'120px' }}/>
             </Link>
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', marginLeft:'15%' }} navbarScroll>
-              <Nav.Link href="/youcanfly-webpage/home" className='m-md-3' id='navbutton'><IoArrowBack size={30} /> Back to home</Nav.Link>
+              <Nav.Link href="/home" className='m-md-3' id='navbutton'><IoArrowBack size={30} /> Back to home</Nav.Link>
               {/* Services NavDropdown */}
               {/* <NavDropdown
                 title={<span><AiOutlineSolution size={30} style={{ marginRight: '5px' }} /> Services</span>}
@@ -115,8 +115,8 @@ function NavScrollExample() {
                 Disaster Management
               </NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link href='/youcanfly-webpage/dronerepair' className='m-md-3' id='navbutton'><GiAutoRepair size={30} /> Drone Repair</Nav.Link>
-              <Nav.Link href="/youcanfly-webpage/blog" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
+              <Nav.Link href='/dronerepair' className='m-md-3' id='navbutton'><GiAutoRepair size={30} /> Drone Repair</Nav.Link>
+              <Nav.Link href="/blog" className='m-md-3' id='navbutton'><FaBloggerB size={30} /> Blog</Nav.Link>
               <Nav.Link href="https://sasijaya2112.github.io/youcanfly_lms/" target='blank' className='m-md-3' id='navbutton'><MdComputer size={30}/> LMS login</Nav.Link>
               <ContactUs/>
             </Nav>

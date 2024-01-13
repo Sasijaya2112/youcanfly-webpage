@@ -24,6 +24,7 @@ import { FaBloggerB } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import TermsandCondition from './TermsandCondition';
 import PrivacyPolicy from './PrivacyPolicy';
+// import { Link } from 'react-router-dom';
 
 const Footer = () => {
     // const [isHoveredFacebook, setIsHoveredFacebook] = useState(false);
@@ -108,7 +109,7 @@ const Footer = () => {
                 <Col md={2} className='mt-5' id='footeralign1'>
                         <h5>Quick Links</h5>
                         <a href='#aboutus' style={{textDecoration:'none'}}><p className='mt-4' id='quicklinks'><IoMdHome size={25}/> &nbsp;AboutUs</p></a>
-                        <a href='/youcanfly-webpage/blog' style={{textDecoration:'none'}}><p id='quicklinks'><FaBloggerB size={25}/> &nbsp;Blog</p></a>
+                        <a href='/blog' style={{textDecoration:'none'}}><p id='quicklinks'><FaBloggerB size={25}/> &nbsp;Blog</p></a>
                         <a href='https://sasijaya2112.github.io/youcanfly_lms/' style={{textDecoration:'none'}}><p id='quicklinks'><MdComputer size={25}/> &nbsp;LMS Login</p></a>
                     </Col>
                     <Col md={3} className='mt-5' id='footeralign'>
@@ -119,7 +120,7 @@ const Footer = () => {
                         <p id='services'><BiSolidCctv size={25}/> &nbsp;Surveillance</p>
                         <p id='services'><IoMapSharp size={25}/> &nbsp;Mapping and Surveying</p>
                         <p id='services'><GrInspect size={25}/> &nbsp;Inspection</p>
-                        <p id='services'><TbDrone size={25}/> &nbsp;Drone Repair</p>
+                        <a href='/dronerepair' style={{textDecoration:'none', color:'white'}}><p id='services'><TbDrone size={25}/> &nbsp;Drone Repair</p></a>
                     </Col>
                     
                     <Col md={3}className='mt-5' id='footeralign'>

@@ -27,8 +27,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Aeromodelling</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Aeromodelling is a hobby focused on building and flying model aircraft. Enthusiasts create scaled-down replicas of airplanes, helicopters, or drones. It involves craftsmanship, engineering skills, and provides hands-on experience in aviation principles.
                     </Card.Text>
                     {/* <Button variant="primary">View Course</Button> */}
                     <AeromodellingCourse/>
@@ -41,8 +40,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>UAV Engineering</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    UAV (Unmanned Aerial Vehicle) engineering involves designing and building autonomous or remotely controlled aircraft. Engineers develop systems for navigation, communication, and payload integration to meet specific mission requirements.
                     </Card.Text>
                     <UavCourse/>
                 </Card.Body>
@@ -54,8 +52,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Aerial Cinematography</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Art of capturing video and film content from elevated perspectives using aircraft or drones. It enhances visual storytelling by providing unique aerial views and dynamic shots. This technique is widely employed in filmmaking and other documentries.
                    </Card.Text>
                     <AerialCinematography/>
                 </Card.Body>
@@ -67,8 +64,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Basic Drone <br></br> Piloting</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Drone piloting entails mastering controls for altitude, direction, and orientation using a remote. Pilots must adhere to airspace regulations, and practice safe flying techniques for successful and responsible drone operation. 
                     </Card.Text>
                     <DronePiloting/>
                 </Card.Body>
@@ -80,8 +76,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Agricultural Drone Operation</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Agricultural drone operations involve deploying unmanned aerial vehicles for tasks such as crop monitoring and spraying. Drones assist in precision agriculture by providing data on crop health, pest detection, and optimizing resource.
                     </Card.Text>
                     <AgriculturalDrone/>
                 </Card.Body>
@@ -93,8 +88,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Advanced Drone <br></br> Piloting</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Advanced drone piloting involves mastering complex maneuvers, autonomous features, and advanced camera use while prioritizing safety, regulations, and real-time decision-making in diverse scenarios.
                     </Card.Text>
                     <DisasterManagement/>
                 </Card.Body>
@@ -106,8 +100,7 @@ const Courses = () => {
                 <Card.Body>
                     <Card.Title>Disaster Management</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    Drones aid disaster management by providing aerial surveys for damage assessment and delivering essential supplies to inaccessible areas. Their swift deployment enhances emergency response efforts and facilitates timely decision-making in crisis situations.
                     </Card.Text>
                     <DisasterManagement/>
                 </Card.Body>
