@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import slide1 from './CounterSlide Images/1.png';
 import slide2 from './CounterSlide Images/2.png';
 import slide3 from './CounterSlide Images/3.png';
-import slide4 from './CounterSlide Images/4.png';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function CounterSlide() {
@@ -46,21 +45,7 @@ function CounterSlide() {
           </p>
         </Carousel.Caption> */}
       </Carousel.Item>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src={slide4}
-          alt="First slide"
-          
-        /> 
-        {/* <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
-    </Carousel>
+          </Carousel>
   );
 }
 

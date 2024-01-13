@@ -17,6 +17,7 @@ import Slide4 from './Slide4';
 // import HorizontalSlider from './HorizontalSlider';
 import WhatsappChat from './WhatsappChat';
 import Team from './Team/Team';
+import logo from './logowhite.jpg'
 
 const Home = () => {
 
@@ -24,7 +25,18 @@ const Home = () => {
         <div>
             <div className='Home'>
         <Navbar/>
-        <Video/>
+        <Container>
+        <Row>
+            <Col xs={12} md={5} style={{marginTop:'10%'}}>
+            <img width='80%' src={logo} alt="logo" /> 
+            </Col>
+            <Col className='mt-5'>
+            <Video/>
+            <h4 className='mt-3'>Elevate your career and soar to new heights with us – Join our innovative drone company and be part of the future of aerial technology!</h4>
+            </Col>
+        </Row>
+        </Container>
+        {/* <Video/> */}
         <AboutUs/>
         <Courses/>
         <Counter/>

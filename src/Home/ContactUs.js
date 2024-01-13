@@ -20,9 +20,9 @@ function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
     var data = {
-      service_id: 'service_97f0sbl',
-      template_id: 'template_0bz96rr',
-      user_id: 'bWodJ6suy7VUOXslw',
+      service_id: 'service_nwzxz0e',
+      template_id: 'template_vqxsw54',
+      user_id: 'U06LOGywycTycJewH',
       template_params: {
         'name': name,
         "mail": mail,
