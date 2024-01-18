@@ -24,6 +24,7 @@ import { FaBloggerB } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import TermsandCondition from './TermsandCondition';
 import PrivacyPolicy from './PrivacyPolicy';
+import RefundPolicy from './RefundPolicy';
 // import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -145,8 +146,8 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="mt-5" md={3}>
-                        <span id='quicklinks'><TermsandCondition/>&nbsp;</span>|<span id='services'>&nbsp;<PrivacyPolicy/></span>
+                    <Col className="mt-5" md={4}>
+                        <span id='quicklinks'><TermsandCondition/>&nbsp;</span>|<span id='services'>&nbsp;<PrivacyPolicy/></span> |<span id='services'>&nbsp;<RefundPolicy/></span>
                     </Col>
                 </Row>
                 <Row>
